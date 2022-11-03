@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    /* width: 100%; */
+    display: block;
+}
+html,
+body {
+    color: #000000;
+    background: #ffff;
+}
+
+ul li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+a {
+    color: #000000;
+    font-family: 'Staatliches';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+}
+.wrapper {
+    position: relative;
+}
+
+/*Header*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header__container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+
+}
+
+.header__btn {
+    border: none;
+    background: transparent;
+    display: block;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+}
+
+.header__nav {
+    display: flex;
+    margin-left: -450px;
+}
+
+.header__nav li:last-child::before {
+    content: '/';
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 10px;
+
+}
+
+
+.headind__container{
+    padding-top: 170px;
+    padding-bottom: 40px;
+
+}
+.headind__container h2::before{
+    content:'';
+    display: inline-block;
+    width: 100px;
+    height: 8px;
+    margin: 0px 20px 10px 0px ;
+    background: #000000;
+
+}
+.headind__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 90px;
+    border-top: 2px solid #BDBDBD;
+    border-bottom: 2px solid #BDBDBD;
+    padding: 20px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}

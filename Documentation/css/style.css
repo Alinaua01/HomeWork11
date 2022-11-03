@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    /* width: 100%; */
+    display: block;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+a {
+    color: #000000;
+    font-family: 'Staatliches';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+h2 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+html,
+body {
+    color: #000000;
+    background: #ffff;
+}
+body {
+    padding: 76px 120px 98px;
+    background-image: url(../image/bg-picture.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 150px;
+    background-attachment: fixed;
+}
+.wrapper {
+    position: relative;
+}
+
+/*Header*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header__container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+
+}
+
+.header__btn {
+    border: none;
+    background: transparent;
+    display: block;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+}
+
+.header__nav {
+    display: flex;
+    margin-left: -450px;
+}
+
+.header__nav li:last-child::before {
+    content: '/';
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 10px;
+
+}
+
+/*Main Content*/
+.main-content__container {
+    display: flex;
+    gap: 30px;
+    margin-top: 160px;
+}
+
+.sidebar__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    position: sticky;
+    top: 70px;
+    width: 385px;
+}
+
+.sidebar__nav a {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+
+.main-content__chapter {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content__chapters::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 8px;
+    background: #000000;
+}
+
+.main-content__chapters {
+    margin-bottom: 70px;
+}
+
+.main-content__chapter p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin: 0px 0px 40px;
+}
+
+.main-content__chapter p:last-child {
+    margin-bottom: 0px;
+}
+
+
+.chapter3 p:nth-child(5)::after {
+    content: "<Text>Hello, I am your cat!</Text>.";
+    display: inline-block;
+    background: #DADADA;
+}
+
+.chapter3 p:nth-child(6)::after {
+    content: "<Text>";
+    display: inline-block;
+    background: #DADADA;
+}
+
+.chapter3 p span {
+    background: #DADADA;
+}
+
