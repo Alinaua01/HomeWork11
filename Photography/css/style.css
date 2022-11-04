@@ -1,0 +1,244 @@
+/*font-family: 'Delius Unicase', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 120px 0 80px;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container__image {
+    position: relative;
+    cursor: pointer;
+}
+
+/*--text--*/
+.text__left {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.text__right {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E0E0E0;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+}
+/*--text end--*/
+
+/*--icon--*/
+.icon {
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.heart__icon {
+    left: 20px;
+}
+
+.downl__icon {
+    right: 20px;
+}
+
+.container__image:hover .icon {
+    opacity: 1;
+}
+/*--icon end--*/
+
+/*--grid1--*/
+.container__grid1 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid1__image1 {
+    grid-column-start:1;
+    grid-column-end:2;
+}
+.grid1__image2 {
+    grid-column-start:2;
+    grid-column-end:4;
+}
+
+.grid1__image3 {
+    grid-column-start:1;
+    grid-column-end:3;
+}
+.grid1__image4 {
+    grid-column-start:3;
+    grid-column-end:4;
+}
+
+.grid1__image5 {
+    grid-column-start:1;
+    grid-column-end:2;
+}
+.grid1__image6 {
+    grid-column-start:2;
+    grid-column-end:4;
+}
+/*--grid2--*/
+.container__grid2 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid2__image1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid2__image2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid2__image3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+.grid2__image4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid2__image5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid2__image6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/*--grid3--*/
+.container__grid3 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin-bottom: 120px;
+}
+
+.grid3__image1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:  1;
+    grid-row-end: 2;
+}
+.grid3__image2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:  1;
+    grid-row-end: 3;
+}
+.grid3__image3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:  1;
+    grid-row-end: 2;
+}
+.grid3__image4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:  2;
+    grid-row-end: 3;
+}
+.grid3__image5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid3__image6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:  3;
+    grid-row-end: 5;
+}
+.grid3__image7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:  3;
+    grid-row-end: 4;
+}
+.grid3__image8 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:  4;
+    grid-row-end: 5;
+}
+.grid3__image9 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:  5;
+    grid-row-end: 6;
+}
+.grid3__image10 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:  5;
+    grid-row-end: 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
